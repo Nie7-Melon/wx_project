@@ -1,0 +1,55 @@
+{
+  "entryPagePath": "pages/index/index",
+    "pages": [
+        "pages/index/index",
+        "pages/profile/profile",
+        "pages/cate/cate",
+        "pages/list/list",
+        "pages/cart/cart"
+    ],
+    
+    "window": { 
+      "navigationBarTitleText": "西西Flower",
+      "navigationBarBackgroundColor": "#fc9ece",
+      "enablePullDownRefresh": true,
+      "backgroundColor": "#efefef",
+      "backgroundTextStyle":"dark"
+    },
+    "tabBar": {
+      "selectedColor": "#000000",
+      "color": "#000000",
+      "backgroundColor": "#ffebee",
+      "borderStyle": "white",
+      "position": "bottom",
+      "list":[
+        {
+          "text":"首页",
+          "pagePath": "pages/index/index",
+          "iconPath": "/assets/tabbar/绵羊大头贴.png",
+          "selectedIconPath": "/assets/tabbar/狐狸大头贴.png"
+        },
+        {
+          "text":"页面2",
+          "pagePath": "pages/cate/cate",
+          "iconPath": "/assets/tabbar/牛牛大头贴.png",
+          "selectedIconPath": "/assets/tabbar/狐狸大头贴.png"
+        },
+        
+        {
+          "text":"页面3",
+          "pagePath": "pages/cart/cart",
+          "iconPath": "/assets/tabbar/兔子大头贴.png",
+          "selectedIconPath": "/assets/tabbar/狐狸大头贴.png"
+        },
+        {
+          "text":"页面4",
+          "pagePath": "pages/profile/profile",
+          "iconPath": "/assets/tabbar/大龙大头贴.png",
+          "selectedIconPath": "/assets/tabbar/狐狸大头贴.png"
+        }
+      ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

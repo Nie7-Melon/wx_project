@@ -17,10 +17,10 @@
 
 <!-- 公司信息 -->
 <view class="info">
-  <text><text class="iconfont icon-ps"></text> 同城配送</text>
-  <text><text class="iconfont icon-lx"></text> 行业龙头</text>
-  <text><text class="iconfont icon-time"></text> 半小时送达</text>
-  <text><text class="iconfont icon-hp"></text> 100% 好评</text>
+  <text><text class="iconfont icon-shouye"></text> 同城配送</text>
+  <text><text class="iconfont icon-on_time"></text> 行业龙头</text>
+  <text><text class="iconfont icon-peisong"></text> 半小时送达</text>
+  <text><text class="icon-tubiao_dianzan"></text> 100% 好评</text>
 </view>
 
 <!-- 商品导航 -->
